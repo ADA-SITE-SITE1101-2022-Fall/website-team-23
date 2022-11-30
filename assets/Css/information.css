@@ -8,7 +8,9 @@
 }
 
 /* Navbar Start */
-
+a{
+    color: black;
+}
 .logo{
     width: 40px;
     height: 40px;
@@ -82,89 +84,53 @@ i{
 /* Navbar End */
 
 
-
-.hours{
-    background-color: #2B3A55;
-    height: auto;
+.account{
+    padding-top: 100px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
     width: 100%;
-    display: flex;
-    padding-top: 150px;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 50px;
-
-}
-
-
-.hours .main-page{
-    background-color: #E8C4C4;
-    height: 500px;
-    width: 80%;
-    border-radius: 20px;
-
-}
-
-
-.hours .main-page h1{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-}
-.hours .main-page p{
-    font-size: 32px;
-    margin-top: 30px;
-    text-align: center;
-}
-.hours .event{
-    background-color: #E8C4C4;
-    height: 400px;
-    width: 70%;
-    border-radius: 20px;
-}
-
-.hours .event h1{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
     
-}
+  }
+  
+  td, th {
+    border: 1px solid #F3EFE0;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #F3EFE0;
+  }
+ 
+  tr:nth-child(odd){
+    background-color: #DBA39A;
+  }
 
-.hours .event p{
-    font-size: 32px;
-    margin-top: 30px;
-    text-align: center;
 
-}
-
-.images {
+  .info{
     display: flex;
-    flex-direction: column;
-    row-gap: 50px;
+    border-radius: 10px;
     
-}
-.images .first-line{
+    width: 65%;
+    height: 450px;
+    background-color: #DBA39A;
+    margin: 50px 0 0 250px;
     display: flex;
-    column-gap: 40px;
-}
+    justify-content: center;
+    flex-direction: column;
+    
+  }
 
+  .info h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .info p{
+    font-size: 25px;
 
-.images .second-line{
-    display: flex;
-    column-gap: 40px;
-}
-
-.images img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.images .first,.second,.third,.fourth{
-    width: 650px;
-    height: 300px;
-}
-
-
-.video{
-    width: 600px;
-    height: 600px;
-}
+  }
+  
